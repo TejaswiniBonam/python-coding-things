@@ -1,0 +1,165 @@
+📌1. If you want to convert int to its ascii char use chr()
+
+📌2. to get ascii value of a char use ord()
+
+📌3. If u want to copy a list without making changes in original
+	l = []
+	l.extend(nums)
+	or
+	l = nums[:]
+	📌 import copy
+		l = copy.deepcopy(listname)
+
+📌4. if u wanna sort a list: dont assign it just write
+	l.sort()
+	IF U HAV ETO ASSINGN USE  x= sorted(l)
+
+📌5. if u want to search on a list with minimum checkings..
+	BINARY SEARCH
+	begin = 0
+	end = n-1
+	while begin < end:
+		m = begin + end //2
+		if a[m] == s:
+
+📌6. to get binary number of a number
+	bin()
+	hex() for hexa decimal
+	TO GET BINARY TO DECIMAL
+		s = int(n,2)
+
+📌7. to make string lowercase or uppercase
+	str1.lower()
+	str1.upper()
+
+📌8. when u say s = set(list1) if it is integer list set will sort them if it is string o
+   char list it will sort in random order
+
+📌9. ASCIII
+		A - Z : 65 - 90
+		a - z : 97 -122
+
+📌10. if u wanna convert list of chars to a string
+	r = ""
+	l = ['a', 'd', 'k']
+	print(r.join(l)) ----> "adk"
+	if r=="-"
+	then answer = "a-d-k"
+
+📌11. To find index of char in string:
+		a. str1.rfind(char_name)
+
+📌12. str1.capitalize() method gives a string with starting letter capital and ALL REMAINING ELEMENTS TO LOWER
+
+📌13. To check all chars in string are lower, upper
+		str1.isupper()
+		str2.islower()
+
+📌14. PYTHON IS NOT CALAMEL LANGUAGE ie the methods are lower case only not like seconf word in method name is not capital like java
+
+📌15. To insert an element at a specific index in List in python
+	l1.insert(indexno, value)
+
+📌16. Here, y.sort() sorts y and can't be assigned to another variable.Here, you could 		
+			use sorted() like x = sorted(y)
+				(OR)
+			e = heights.copy()
+        		e.sort()
+
+📌17. To check if a str in substr in another str
+			1. in
+			2. count (if s.count("ab")>0)
+
+📌18. To check if a string is a digit or not:
+			1. str1.isdigit()
+			2. >= '0' and <= '9'
+📌19. from itertools import combinations
+	if we have list and we need to select k elements
+	for i in combinations(listname, k)
+📌20. To reverse a list
+	list.reverse()
+	list = list[::-1]
+📌21. import collections or u can just say from collections import Counter
+	collections.Counter(list_name)
+	It creates a dict with sorted elemenst of list in Decreasing their count
+	keys in dict are ele in list, values are count of them
+📌22. LINKED LIST IN PYTHON
+	traversing:
+		while head:
+			head = head.next
+			print(head.val)
+	if hext.next is None
+📌23. REVERSE A LINKED LIST 3 pointers
+	p=None
+	c=head
+	n=head
+	while c:
+		n=n.next
+		c.next = p
+		p=c
+		c=n
+	head = p
+📌📌📌24. pow() is different from math.pow()
+		pow() takes 3 args pow(num, exponent, modulus)
+		math.pow() takes only 2 args math.pow(num,exponent)
+📌25. use defaultdict()✅ if u don't wanna face keyErrorz ⚠️ , like U had to use d[x]=y but if x is not in d so............
+	but declare typeof values
+		defaultdict(int) or list........
+📌 26. Suppose there is s a loop and u should take a list for each iter and append it to gloabl list
+
+	r=[]
+	for i in range(n):
+		k=[]
+		k.append(x)
+		r.append(k)
+		k.clear()❌  #here the uploaded list in r also gets empty
+		so don't write clear or u can append copy of k
+📌 27. U can add nodes of LL in set too which is importance of their address
+📌 28. When u donno how many lines the input is use try except
+		try:
+			s=input()
+			......
+		except:
+			break✅✅✅✅
+
+📌 29. str_name.rstrip() - removes trailing spaces but not spaces in front
+	str_name.strip() - removes spaces at front and end too
+
+📌 30. find() returns least index of character
+	idx = string.find(char)
+	idx = string.find(char, start_idx)
+	idx = string.find(char, strat_idx, end_idx)
+
+📌 31. if u have nested list and u wanna make it a set then it throws an error saying 	unhashable type 'list'
+	l=[[1,2],[1,3],[2,1]]
+	s=set(l)---------> ❌WRONG (⚠️ERROR)
+	so make inner lists as sets✅
+
+📌 32. a*b = lcm(a,b)*gcd(a,b)
+
+📌 33. In sets u can't use indexing❌ cuz, sets are unordered and not subsriptable.
+	like if u say return s[0] it will raise error⚠️ 
+	so if u wanna use indexing convert set to list✅
+
+📌 34. 	str1.zfill(len(str2))
+	The zfill() method adds zeros (0) at the beginning of the string, until it reaches the specified length. If the value of the len parameter is less than the length of the string, no 		filling is done.💚
+
+
+📌35. str1.rindex('a') gives the index of last occurence of 'a' in str1.
+📌36. def f():
+	a = 0
+	def f2(x, y):
+		a = 2 #it will raise an error cause integer is immutable so use any mutable types
+      def f():
+	a = [0]
+	def f2(x, y):
+		a[0] =2
+📌37. k.join(arr) means make string of all chars in arr with delimiter k
+	"".join(arr) = str of arr
+
+
+
+
+
+
+
