@@ -157,6 +157,14 @@
 📌37. k.join(arr) means make string of all chars in arr with delimiter k
 	"".join(arr) = str of arr
 
+📌38. Les learn three new methods which are rjust(), ljust(), center() = Alignment methods in python.
+	Like we have a string and if we want to align it 
+	if str="APPLE"
+	if I say str.rjust(10) then it will print "     APPLE" in the console
+			ljust(10)                 "APPLE     "
+			center(10)                 "   APPLE   "
+	NOTE : the 10 indicates the entire length including the length of the string OKAY??
+
 
 
 
