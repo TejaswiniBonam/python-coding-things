@@ -168,6 +168,12 @@
 
 📌39. In python `bool` type is subClass (subtype) of `int` .. Like True and False are integers itself (0 and 1)
 
+📌 40. Can we Evaluate bool values inPython? YES `True and True; True or False;`
+📌 41. DONT GET CONFUSED!!! - in python we don't use `!boolValue` to represent negation instead we use `not boolValue`
+📌 42. IS there a complex type in python?
+
+📌 43. In python Integers has Arbitrary precision.. WHAT DHAT?
+
 
 
 
