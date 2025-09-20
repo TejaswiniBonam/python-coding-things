@@ -166,6 +166,9 @@
 	NOTE : the 10 indicates the entire length including the length of the string OKAY??
 
 
+📌39. In python `bool` type is subClass (subtype) of `int` .. Like True and False are integers itself (0 and 1)
+
+
 
 
 
