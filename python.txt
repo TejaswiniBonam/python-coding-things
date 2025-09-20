@@ -172,7 +172,8 @@
 📌 41. DONT GET CONFUSED!!! - in python we don't use `!boolValue` to represent negation instead we use `not boolValue`
 📌 42. IS there a complex type in python?
 
-📌 43. In python Integers has Arbitrary precision.. WHAT DHAT?
+📌 43. In python Integers has Arbitrary precision.. WHAT DHAT? - smth like adjusting the memory needed like integer value? no matter how long u give it takes but untill the system's storage limit only
+
 
 
 
