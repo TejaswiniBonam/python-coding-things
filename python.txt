@@ -176,6 +176,7 @@
 
 📌 44. In comparision operations one of them is `is` If I say `a is b` it returns True if anf only if  a and b are same objects.
 📌 45. `is, is not, in, not in` are comparision operators too
+📌46. TERNARY OPERATOR in PYTHON IS NOT SAME... print("Y" if x==1 else "N"); TRY FOR ELSE_IF
 
 
 
